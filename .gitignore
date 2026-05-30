@@ -10,6 +10,6 @@ vllm_patch/*
 _DS_Store
 *.aux
 *.lof
-*.lake
+.lake/
 *.glo
 *.idx
