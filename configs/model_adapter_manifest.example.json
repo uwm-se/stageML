@@ -1,0 +1,24 @@
+{
+  "models": [
+    {
+      "name": "mixtral",
+      "repo": "mistralai/Mixtral-8x7B-v0.1",
+      "adapter_repos": [
+        "dfurman/Mixtral-8x7B-Instruct-v0.1",
+        "Open-Orca/Mixtral-SlimOrca-8x7B",
+        "DS-Archive/limarp-zloss-mixtral-8x7b-qlora",
+        "Epiculous/crunchy-onion-lora"
+      ]
+    },
+    {
+      "name": "qwen15_moe",
+      "repo": "Qwen/Qwen1.5-MoE-A2.7B",
+      "adapter_repos": [
+        "sai-lakkshmii/Qwen1.5-MoE-A2.7B-squad-lora-latest",
+        "sai-lakkshmii/Qwen1.5-MoE-A2.7B-squad-lora-latestt",
+        "cakeng/qwen1_5-moe-a2_7b-lora-dolmino-wiki-blockffn-10000-steps-no-experts"
+      ]
+    }
+  ],
+  "note": "Example candidate list. Validate licensing, target modules, adapter format, and base model compatibility before using for paper claims."
+}

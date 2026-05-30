@@ -1,0 +1,8 @@
+-r requirements.txt
+huggingface_hub>=0.24.0
+datasets>=2.19.0
+transformers>=4.41.0
+accelerate>=0.30.0
+safetensors>=0.4.0
+lm-eval>=0.4.5
+triton>=2.3.0

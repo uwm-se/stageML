@@ -1,0 +1,26 @@
+[
+  {
+    "name": "mixtral_8x7b_base",
+    "model": "mistralai/Mixtral-8x7B-v0.1",
+    "adapter": "/data/stageml_h100_run/adapters/firefly-mixtral-8x7b-lora",
+    "quantization": "8bit"
+  },
+  {
+    "name": "mixtral_8x7b_instruct",
+    "model": "mistralai/Mixtral-8x7B-Instruct-v0.1",
+    "adapter": "/data/stageml_h100_run/adapters/firefly-mixtral-8x7b-lora",
+    "quantization": "8bit"
+  },
+  {
+    "name": "qwen15_moe_a27b",
+    "model": "Qwen/Qwen1.5-MoE-A2.7B",
+    "adapter": "synthetic",
+    "quantization": "8bit"
+  },
+  {
+    "name": "qwen15_moe_a27b_chat",
+    "model": "Qwen/Qwen1.5-MoE-A2.7B-Chat",
+    "adapter": "synthetic",
+    "quantization": "8bit"
+  }
+]

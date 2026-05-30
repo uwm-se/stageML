@@ -1,0 +1,34 @@
+{"synthetic": false,
+ "schemaVersion": "2025-09-10",
+ "outputs":
+ {"o": ["da17f032c31fadf1.olean"],
+  "m": false,
+  "i": "bc4a7cfc4a0a102d.ilean",
+  "c": "36f1dc6c14ab5bea.c"},
+ "log":
+ [{"message":
+   ".> LEAN_PATH=/Users/xavier/Desktop/790-SP26/stageML_github/.lake/build/lib/lean /Users/xavier/.elan/toolchains/leanprover--lean4---v4.30.0/bin/lean /Users/xavier/Desktop/790-SP26/stageML_github/Proofs/TensorShape.lean -o /Users/xavier/Desktop/790-SP26/stageML_github/.lake/build/lib/lean/Proofs/TensorShape.olean -i /Users/xavier/Desktop/790-SP26/stageML_github/.lake/build/lib/lean/Proofs/TensorShape.ilean -c /Users/xavier/Desktop/790-SP26/stageML_github/.lake/build/ir/Proofs/TensorShape.c --setup /Users/xavier/Desktop/790-SP26/stageML_github/.lake/build/ir/Proofs/TensorShape.setup.json --json",
+   "level": "trace"},
+  {"message":
+   "Proofs/TensorShape.lean:25:44: unused variable `output`\n\nNote: This linter can be disabled with `set_option linter.unusedVariables false`",
+   "level": "warning"}],
+ "inputs":
+ [["Proofs.TensorShape:deps",
+   [["deps",
+     [["StageML/StageML:extraDep", [["@StageML:extraDep", "00000000000006bb"]]],
+      ["imports", "00000000000006bb"]]],
+    ["libs",
+     [["import dynlibs", "00000000000006bb"],
+      ["package external libraries", "00000000000006bb"],
+      ["module dynlibs", "00000000000006bb"],
+      ["module plugins", "00000000000006bb"]]]]],
+  ["Lean 4.30.0, commit d024af099ca4bf2c86f649261ebf59565dc8c622",
+   "2f4703bb19086252"],
+  ["/Users/xavier/Desktop/790-SP26/stageML_github/Proofs/TensorShape.lean",
+   "24f5cd672719d058"],
+  ["options", "00000000000006bb"],
+  ["isModule: false", "feefd2a0d3a1847e"],
+  ["Module.name: Proofs.TensorShape", "5f5341f1078d8013"],
+  ["Package.id?: (some StageML)", "f51eefd5cec5cb5d"],
+  ["Module.leanArgs: #[]", "00000000000006bb"]],
+ "depHash": "728578dc4f8e50bc"}

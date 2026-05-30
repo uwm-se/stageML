@@ -1,0 +1,22 @@
+{
+  "version": 1,
+  "model": "mistralai/Mixtral-8x7B-v0.1",
+  "entries": [
+    {
+      "tenant_id": 0,
+      "adapter_id": 0,
+      "backend": "iree_cuda",
+      "artifact": "paper_outputs/baremetal_iree/stageml_residual_plan.vmfb",
+      "symbol": "stageml_residual_moe",
+      "enabled": true
+    },
+    {
+      "tenant_id": 1,
+      "adapter_id": 1,
+      "backend": "triton_ptx",
+      "artifact": "paper_outputs/triton_generated/generated_residual_kernel.py",
+      "symbol": "stageml_residual_moe",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,6 @@
+# Optional dependencies for the systems bridge.
+# Install only in the dedicated H100/vLLM environment.
+aiohttp>=3.9
+lm-eval>=0.4
+# IREE packages are version and CUDA dependent. Prefer the official install
+# instructions for your platform, then verify `iree-compile --help` works.

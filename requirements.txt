@@ -1,0 +1,8 @@
+torch>=2.1.0
+torchvision>=0.16.0
+#mlir-python-bindings>=0.1.0ß
+torch-mlir
+pytest>=7.0
+numpy>=1.24
+scipy>=1.10
+pytest-cov>=3.0
