@@ -2,3 +2,14 @@ paper_outputs/*
 paper/*
 scripts/*
 vllm_patch/*
+*.log
+*.ckpt
+*.bin
+*.json
+*.txt
+_DS_Store
+*.aux
+*.lof
+*.lake
+*.glo
+*.idx
